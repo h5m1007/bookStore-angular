@@ -1,0 +1,74 @@
+<div class="well" ng-controller="BookDetailCtrl">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <img ng-src="{{pic_src}}" alt="用xxx开发下一代web应用" width="80%">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a class="btn btn-primary" ui-sref="booklist({bookType:0})">返回列表</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-hozizontal" role="form" name="form">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                书名：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">
+                                    <a ng-href="{{pic_src}}" target="_blank">{{name}}</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                类型：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">计算机</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                出版日期：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">{{pubTime}}</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                作者：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">{{author}}</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                定价：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">{{price | currency: '￥'}}</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                是否有电子书：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">无</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+[{
+    "bookId": "1",
+    "index": "1",
+    "name": "用AngularJS开发下一代WEB应用",
+    "pic_src": "../imgs/angularjs.jpg",
+    "author": "Leo",
+    "pubTime": "2013-08-21",
+    "price":"35"
+}, {
+    "bookId": "2",
+    "index": "2",
+    "name": "Ext江湖",
+    "pic_src": "../imgs/extjs.jpg",
+    "author": "Leo",
+    "pubTime": "2014-07-21",
+    "price":"35"
+}, {
+    "bookId": "3",
+    "index": "3",
+    "name": "ActionScript3.0游戏设计基础（第二版）",
+    "pic_src": "../imgs/actionscript.jpg",
+    "author": "Leo",
+    "pubTime": "2015-09-21",
+    "price":"35"
+}, {
+    "bookId": "4",
+    "index": "4",
+    "name": "用AngularJS开发下一代WEB应用",
+    "pic_src": "../imgs/angularjs.jpg",
+    "author": "Leo",
+    "pubTime": "2012-08-31",
+    "price":"35"
+}]

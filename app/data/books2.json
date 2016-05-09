@@ -1,0 +1,17 @@
+[{
+    "bookId":"1",
+    "index": "1",
+    "name": "用AngularJS开发下一代WEB应用",
+    "pic_src": "../imgs/angularjs.jpg",
+    "author": "Leo",
+    "pubTime": "2014-01-01",
+    "price":"35"
+}, {
+    "bookId":"2",
+    "index": "2",
+    "name": "Ext江湖",
+    "pic_src": "../imgs/extjs.jpg",
+    "author": "Leo",
+    "pubTime": "2014-01-01",
+    "price":"35"
+}]
